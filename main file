@@ -1,0 +1,3 @@
+module.exports = { myFunc : function () {  } }
+  db.run("INSERT INTO migration (id,name,applied) VALUES (?,?,?)",[1,"001.js","myFunc()"]);
+  console.log(current);
